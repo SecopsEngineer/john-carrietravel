@@ -45,3 +45,7 @@ Existing image provenance is recorded in the inventory; reuse does not independe
 ## Validation
 
 `node test.cjs` checks every generated page, local link and asset, a single primary heading per page, preserved YouTube IDs, and the cruise story ending. The pull request workflow runs these checks on Linux. Browser QA covered desktop pages, mobile homepage/navigation, film filtering, live Nassau playback, and keyboard dialog dismissal/focus restoration.
+
+## Films refresh
+
+The Films page contains 16 cruise-related channel videos, a most-watched feature, category filters, search, and sorting. View counts are approximate public labels reviewed November 10, 2026; see `archive/youtube-review.json` for the source and selection record. The homepage shows only three viewer favorites. Update metadata in `content.json` following `UPDATING.md`; no live API or credentials are required.

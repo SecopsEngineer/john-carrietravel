@@ -46,3 +46,7 @@ Append to `videos` using an existing record as your guide. Provide `name`, `desc
 Run `node build.cjs` then `node test.cjs`, or let the pull request check run on GitHub. Build errors point out invalid dates, duplicate slugs, and missing images. Generated files are in `dist/`; edit the content source, not those files.
 
 This is a simple content-file workflow, not a separate login or visual editing app. No cruise history has been invented—add entries as you recall the ships and dates.
+
+## Film categories and popularity
+
+The library is curated from the channel’s public Videos → Popular list. `films.reviewedOn` records the snapshot date; counts do not update automatically. Set `viewsApprox` to the rounded numeric estimate (for example 42000), `viewsLabel` to the public display label (for example "42K"), `category` to an existing category, and `popularOrder` to the tie-break order. Set `films.featuredVideoId` to an ID already in `videos`. The home preview shows the three highest-view films, while the Films page offers category filters, search, and most-watched/alphabetical sorting. Preserve original video records when updating counts. Titles and duration labels come from the public channel; labels such as "42 min" retain YouTube’s rounded duration where exact seconds were not shown.

@@ -1,0 +1,159 @@
+{
+  "reviewedOn": "2026-11-10",
+  "source": "https://www.youtube.com/channel/UCmTwsd2YTjS9xykmScB_SrA/videos",
+  "method": "YouTube Videos tab, Popular order. Counts are the rounded public labels visible on the channel, not exact analytics.",
+  "channelVideoCount": 20,
+  "curatedCruiseVideoCount": 16,
+  "omitted": [
+    {
+      "id": "ckdOv6KNFaI",
+      "title": "John & Carrie Travel",
+      "reason": "Channel introduction; keep the gallery focused on cruise films."
+    },
+    {
+      "id": "hzWT_B_guFw",
+      "title": "Gaylord Texan Resort",
+      "reason": "Non-cruise resort video."
+    },
+    {
+      "id": "TPvlQY4CNfw",
+      "title": "The Slingshot",
+      "reason": "Non-cruise attraction video."
+    },
+    {
+      "id": "Cm8j76kFngo",
+      "title": "John & Carrie's Home",
+      "reason": "Personal home video; not part of the cruise gallery."
+    }
+  ],
+  "videos": [
+    {
+      "id": "63yU5uHZHyg",
+      "title": "NCL Breakaway Ship Tour - April 3rd 2022",
+      "duration": "42 min",
+      "viewsLabel": "42K",
+      "viewsApprox": 42000,
+      "category": "Ship tours"
+    },
+    {
+      "id": "IX0FfrOxhIo",
+      "title": "NCL Breakaway Room Tour - Club Balcony Suite 12192 - April 3rd 2022",
+      "duration": "5 min",
+      "viewsLabel": "10K",
+      "viewsApprox": 10000,
+      "category": "Cabin tours"
+    },
+    {
+      "id": "md6ZP1koi3w",
+      "title": "Carnival Dream Ocean Suite 7363 Room Tour",
+      "duration": "3:16",
+      "viewsLabel": "9K",
+      "viewsApprox": 9000,
+      "category": "Cabin tours"
+    },
+    {
+      "id": "TT__Wt8ytNQ",
+      "title": "Adventure to Jade Caverns by ATV - Cozumel Mexico",
+      "duration": "9:57",
+      "viewsLabel": "7.6K",
+      "viewsApprox": 7600,
+      "category": "Shore excursions"
+    },
+    {
+      "id": "1Y2bQSIMUUI",
+      "title": "Natural Pool, Wildlife, Mayan Ruins, Beach and Lunch - Progresso Mexico Excursion",
+      "duration": "4:37",
+      "viewsLabel": "5K",
+      "viewsApprox": 5000,
+      "category": "Shore excursions"
+    },
+    {
+      "id": "-8CrYi-A8pg",
+      "title": "Rough Seas on Royal Caribbean's Vision of the Seas",
+      "duration": "2:05",
+      "viewsLabel": "4.6K",
+      "viewsApprox": 4600,
+      "category": "Cruise moments"
+    },
+    {
+      "id": "iO_JO6SfrgE",
+      "title": "Off Road Buggy Escape - Cozumel Mexico Excursion",
+      "duration": "39 min",
+      "viewsLabel": "3.5K",
+      "viewsApprox": 3500,
+      "category": "Shore excursions"
+    },
+    {
+      "id": "QykMxfZGmKk",
+      "title": "Royal Caribbean - Enchantment of the Seas Ship Tour",
+      "duration": "6:02",
+      "viewsLabel": "2.7K",
+      "viewsApprox": 2700,
+      "category": "Ship tours"
+    },
+    {
+      "id": "KrCIbsuY8MA",
+      "title": "Royal Caribbean - Mayapan Ruins, Lazy River Tubing and Cave Snorkeling - Progresso Mexico",
+      "duration": "3:07",
+      "viewsLabel": "2.3K",
+      "viewsApprox": 2300,
+      "category": "Shore excursions"
+    },
+    {
+      "id": "goC2HWRtHdE",
+      "title": "Teppanyaki Dinner - Specialty Dining on NCL Breakaway - April 3rd 2022",
+      "duration": "44 min",
+      "viewsLabel": "2.3K",
+      "viewsApprox": 2300,
+      "category": "Dining"
+    },
+    {
+      "id": "ViWdaWPwSDo",
+      "title": "Tabasco Chef Maestro's Cooking and Tasting Excursion - Cozumel",
+      "duration": "1:29",
+      "viewsLabel": "1K",
+      "viewsApprox": 1000,
+      "category": "Dining"
+    },
+    {
+      "id": "Jc-ZciYmOcw",
+      "title": "Costa Maya - Port Walkthrough",
+      "duration": "26 min",
+      "viewsLabel": "308",
+      "viewsApprox": 308,
+      "category": "Shore excursions"
+    },
+    {
+      "id": "KhW2GQ84r38",
+      "title": "Carnival Dream Cruise",
+      "duration": "2:09",
+      "viewsLabel": "144",
+      "viewsApprox": 144,
+      "category": "Cruise moments"
+    },
+    {
+      "id": "m69hzZpjbdo",
+      "title": "Tour Nassau, Bahamas",
+      "duration": "2:40",
+      "viewsLabel": "23",
+      "viewsApprox": 23,
+      "category": "Shore excursions"
+    },
+    {
+      "id": "Z00bvTX22YY",
+      "title": "A Tour around Key West, Florida",
+      "duration": "1:39",
+      "viewsLabel": "17",
+      "viewsApprox": 17,
+      "category": "Shore excursions"
+    },
+    {
+      "id": "P3QtRtWxS_E",
+      "title": "Sunset over Key West",
+      "duration": "4:22",
+      "viewsLabel": "15",
+      "viewsApprox": 15,
+      "category": "Cruise moments"
+    }
+  ]
+}

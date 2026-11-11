@@ -23,6 +23,13 @@ assert(fs.readFileSync('dist/index.html', 'utf8').includes('quantum-juneau.jpg')
 assert(fs.readFileSync('dist/stories.html', 'utf8').includes('our-first-cruise.html'));
 assert(fs.readFileSync('dist/' + data.upcoming.slug + '.html', 'utf8').includes(data.upcoming.departure));
 for (const retired of ['eat', 'relax', 'cruise-archive']) assert(!fs.existsSync('dist/' + retired + '.html'));
+const filmPage = fs.readFileSync('dist/videos.html', 'utf8');
+assert.equal((filmPage.match(/class="film" /g) || []).length, data.videos.length);
+assert(filmPage.includes('data-video="' + data.films.featuredVideoId + '"'));
+for (const v of data.videos) assert(fs.existsSync('assets/' + v.embedUrl.split('/').pop() + '.jpg'));
+const home = fs.readFileSync('dist/index.html', 'utf8');
+assert.equal((home.match(/class="film" /g) || []).length, 3, 'Homepage keeps a curated three-film preview.');
+for (const id of ['-8CrYi-A8pg', 'Z00bvTX22YY', 'm69hzZpjbdo']) assert(filmPage.includes(id), 'Preserve original Wix videos.');
 // Verify the promised editing workflow: one new content entry generates a real linked page,
 // and a changed sailing date propagates to every relevant page without editing templates.
 const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'cruise-content-test-'));
