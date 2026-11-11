@@ -26,3 +26,7 @@ The Wix RSS feed listed only `post/our-first-cruise`. No other published story a
 `archive/*.txt` retains the visible original page text, including footer material and placeholders. `archive/inventory.json` retains outbound URLs and original image URLs. Those archive files are source records, not current visitor-facing claims.
 
 Existing repository before this change: one commit containing only `README.md`. Work is isolated on a new branch and offered as a pull request; no merge or production deployment was performed.
+
+## Navigation cleanup
+
+The Eat, Relax, and Cruise Archive visitor pages were subsequently retired at the owner’s request. Their original source records remain in `archive/` for preservation. Footer navigation now links to Destinations, Travel stories, and Films.
