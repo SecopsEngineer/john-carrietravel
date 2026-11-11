@@ -27,7 +27,7 @@ All normal page and asset URLs are relative, so the project subdirectory works w
 
 - `build.cjs`: shared layout, home, trip story, destinations, about, films, and archive pages.
 - `content.json`: all three original YouTube records, titles, descriptions, durations, and embed URLs.
-- `styles.css`: responsive ivory/ocean-green editorial design, reduced motion, visible focus, mobile navigation.
+- `styles.css`: responsive white/ocean-blue editorial design, reduced motion, visible focus, mobile navigation.
 - `app.js`: film search and native modal dialog; videos load only on an explicit click. Escape closes playback and returns focus.
 - `assets/`: local copies of images used by the redesign, including the original cruise story photographs and channel thumbnails.
 - `archive/`: original visible page text and an inventory of original links/images. This preserves historical family details, old site placeholders, the full cruise journal, and original social URLs without presenting outdated information as current.
