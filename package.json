@@ -1,0 +1,7 @@
+{
+  "name":"john-carrie-travel",
+  "private":true,
+  "version":"1.0.0",
+  "scripts":{"build":"node build.cjs","test":"node build.cjs && node test.cjs","dev":"node serve.cjs"},
+  "engines":{"node":">=22"}
+}
