@@ -25,7 +25,7 @@ All normal page and asset URLs are relative, so the project subdirectory works w
 
 ## Content and design
 
-- `build.cjs`: shared layout, home, trip story, destinations, about, films, and archive pages.
+- `build.cjs`: shared layout, home, trip story, destinations, about, and films pages.
 - `content.json`: all three original YouTube records, titles, descriptions, durations, and embed URLs.
 - `styles.css`: responsive white/ocean-blue editorial design, reduced motion, visible focus, mobile navigation.
 - `app.js`: film search and native modal dialog; videos load only on an explicit click. Escape closes playback and returns focus.
