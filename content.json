@@ -1,0 +1,34 @@
+{
+  "videos": [
+    {
+      "@type": "VideoObject",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-8CrYi-A8pg/mqdefault.jpg",
+      "name": "Rough Seas on Royal Caribbean's Vision of the Seas",
+      "description": "!!Subscribe for more content like this!!\nhttps://www.youtube.com/channel/UCmTwsd2YTjS9xykmScB_SrA?sub_confirmation=1\n\nWhile we are on a Royal Caribbean cruise on the Vision of the Seas, we ran into a little weather. I should say that the video makes this look worse than it was, I was having a blast during all this and the crew was amazing. Very professional helping keep everyone safe. I just wanted to share a little of the video I captured during the rough waves.",
+      "uploadDate": "2020-10-27T15:58:13.144Z",
+      "duration": "PT2M5S",
+      "embedUrl": "https://www.youtube.com/embed/-8CrYi-A8pg",
+      "position": 1
+    },
+    {
+      "@type": "VideoObject",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z00bvTX22YY/mqdefault.jpg",
+      "name": "A Tour around Key West, Florida",
+      "description": "This is just a quick video of us looking around Key West, Florida when we were in port. We did not do an excursion just spent some time driving around town. It is definitely a place I want to visit again!",
+      "uploadDate": "2020-10-27T15:57:46.268Z",
+      "duration": "PT1M39S",
+      "embedUrl": "https://www.youtube.com/embed/Z00bvTX22YY",
+      "position": 2
+    },
+    {
+      "@type": "VideoObject",
+      "thumbnailUrl": "https://i.ytimg.com/vi/m69hzZpjbdo/mqdefault.jpg",
+      "name": "Tour Nassau, Bahamas",
+      "description": "This is a short video of our trip around Nassau, Bahamas. We were in port on a Royal Caribbean Cruise and spent some time touring around town. Our cruise ship was the Vision of the Seas. I hope you enjoy our little trip around Nassau.",
+      "uploadDate": "2020-10-27T15:57:23.177Z",
+      "duration": "PT2M40S",
+      "embedUrl": "https://www.youtube.com/embed/m69hzZpjbdo",
+      "position": 3
+    }
+  ]
+}
