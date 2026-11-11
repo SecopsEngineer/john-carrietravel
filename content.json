@@ -8,7 +8,8 @@
       "uploadDate": "2020-10-27T15:58:13.144Z",
       "duration": "PT2M5S",
       "embedUrl": "https://www.youtube.com/embed/-8CrYi-A8pg",
-      "position": 1
+      "position": 1,
+      "displayDuration": "2:05"
     },
     {
       "@type": "VideoObject",
@@ -18,7 +19,8 @@
       "uploadDate": "2020-10-27T15:57:46.268Z",
       "duration": "PT1M39S",
       "embedUrl": "https://www.youtube.com/embed/Z00bvTX22YY",
-      "position": 2
+      "position": 2,
+      "displayDuration": "1:39"
     },
     {
       "@type": "VideoObject",
@@ -28,7 +30,120 @@
       "uploadDate": "2020-10-27T15:57:23.177Z",
       "duration": "PT2M40S",
       "embedUrl": "https://www.youtube.com/embed/m69hzZpjbdo",
-      "position": 3
+      "position": 3,
+      "displayDuration": "2:40"
+    }
+  ],
+  "site": {
+    "name": "John & Carrie Travel",
+    "channel": "https://www.youtube.com/channel/UCmTwsd2YTjS9xykmScB_SrA",
+    "hero": {
+      "image": "quantum-juneau.jpg",
+      "alt": "Quantum of the Seas in Juneau, Alaska, with floatplanes on the water",
+      "eyebrow": "CRUISE DAYS. SHORE STORIES. A LIFE TOGETHER.",
+      "heading": [
+        "More ocean.",
+        "More memories.",
+        "Always together."
+      ],
+      "description": "Twenty years together, at least ten more cruises since our first, and so many memories still to make."
+    }
+  },
+  "upcoming": {
+    "slug": "alaska-2027",
+    "title": "Alaska",
+    "ship": "Quantum of the Seas",
+    "departure": "2027-05-17",
+    "durationDays": 7,
+    "status": "Upcoming sailing",
+    "image": "quantum-juneau.jpg",
+    "imageAlt": "Quantum of the Seas photographed in Juneau, Alaska",
+    "intro": "We’re heading north for a new chapter: seven days cruising Alaska aboard Quantum of the Seas.",
+    "notes": [
+      "Our next cruise departs May 17, 2027. This is where we’ll share the planning, the sailing, and the memories that come home with us.",
+      "For now, the ship, departure date, and seven-day duration are set. We’ll add our ports and excursion plans as we get closer to sailing."
+    ]
+  },
+  "destinations": [
+    {
+      "slug": "nassau",
+      "name": "Nassau",
+      "region": "BAHAMAS",
+      "img": "trip-1.jpg",
+      "sub": "Beyond the port, a different side of the island.",
+      "text": "On our first cruise, we headed beyond the port and markets to explore Nassau. One of our favorite sights was the Queen’s Staircase in the Fort Fincastle Historic Complex.",
+      "video": 2
+    },
+    {
+      "slug": "key-west",
+      "name": "Key West",
+      "region": "FLORIDA",
+      "img": "trip-2.jpg",
+      "sub": "A little wandering. A lot to come back for.",
+      "text": "We loved walking around Key West and seeing the sights. We stopped for lunch at Sloppy Joe’s Bar, and left wanting more time to explore. This is a place we would love to visit again.",
+      "video": 1
+    },
+    {
+      "slug": "cococay",
+      "name": "CocoCay",
+      "region": "BAHAMAS",
+      "img": "trip-3.jpg",
+      "sub": "Clear water. Slow days. Nowhere else to be.",
+      "text": "Our favorite stop on the trip was Royal Caribbean’s private island, called Cocoa Cay in our original journal. We spent the day relaxing on a beach bed, snorkeling in clear water, and enjoying lunch delivered to our cabana bed."
+    }
+  ],
+  "stories": [
+    {
+      "slug": "our-first-cruise",
+      "title": "Our First Cruise",
+      "subtitle": "A whole new horizon.",
+      "label": "From the archives / Our 13th anniversary",
+      "published": "2019-02-02",
+      "status": "Anniversary memory",
+      "ship": "Vision of the Seas",
+      "image": "trip-0.jpg",
+      "imageAlt": "Vision of the Seas sailing between cliffs",
+      "summary": "Our 13th anniversary, our first cruise, and the journey that started it all.",
+      "archive": {
+        "file": "archive/cruise.txt",
+        "start": "Yep, it was our first...",
+        "end": "Facebook Instagram"
+      },
+      "context": "This story remembers our 13th anniversary and our very first cruise. We’ve since celebrated our 20th anniversary and taken at least ten more cruises. We’re keeping this opening chapter just as we remember it.",
+      "photos": [
+        {
+          "image": "trip-1.jpg",
+          "alt": "Nassau",
+          "caption": "Nassau"
+        },
+        {
+          "image": "trip-2.jpg",
+          "alt": "Key West",
+          "caption": "Key West"
+        },
+        {
+          "image": "trip-3.jpg",
+          "alt": "CocoCay",
+          "caption": "CocoCay"
+        },
+        {
+          "image": "trip-4.jpg",
+          "alt": "A photograph from our original cruise story",
+          "caption": "From the original cruise journal"
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "image": "quantum-juneau.jpg",
+      "title": "RCL Quantum of the Seas (52372083882)",
+      "creator": "Thank You (23 Millions+) views",
+      "creatorUrl": "https://www.flickr.com/people/34128007@N04",
+      "source": "https://commons.wikimedia.org/wiki/File:RCL_Quantum_of_the_Seas_(52372083882).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Resized for the web; displayed with responsive cropping and a blue overlay."
     }
   ]
 }

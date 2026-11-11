@@ -25,14 +25,14 @@ All normal page and asset URLs are relative, so the project subdirectory works w
 
 ## Content and design
 
-- `build.cjs`: shared layout, home, trip story, destinations, about, and films pages.
-- `content.json`: all three original YouTube records, titles, descriptions, durations, and embed URLs.
+- `build.cjs`: shared layouts and generated homepage, story collection, story pages, Alaska trip page, destinations, About, films, and photo credits.
+- `content.json`: hero text, upcoming sailing, cruise stories, destinations, videos, durations, and photo credits. See [UPDATING.md](UPDATING.md) for copy-and-edit examples.
 - `styles.css`: responsive white/ocean-blue editorial design, reduced motion, visible focus, mobile navigation.
 - `app.js`: film search and native modal dialog; videos load only on an explicit click. Escape closes playback and returns focus.
 - `assets/`: local copies of images used by the redesign, including the original cruise story photographs and channel thumbnails.
 - `archive/`: original visible page text and an inventory of original links/images. This preserves historical family details, old site placeholders, the full cruise journal, and original social URLs without presenting outdated information as current.
 
-Adding a film: append a VideoObject to `content.json`, save its YouTube thumbnail in `assets/<video-id>.jpg`, and update the display-duration list in `build.cjs`. Adding a destination: extend the `trips` array. Rebuild and test before committing.
+For routine updates, edit `content.json` and upload photographs to `assets/`. Adding a story automatically generates its page and collection card. One upcoming-trip record supplies the menu, homepage, trip page, and About details. Full instructions: [UPDATING.md](UPDATING.md).
 
 ## Migration decisions
 
@@ -40,7 +40,7 @@ The Wix home, About, Travel, Upcoming Cruises, Eat, Relax, Videos, blog RSS feed
 
 No newsletter or contact form backend was available. The old placeholder email was not made into a real contact action, and no nonfunctional signup was added. Visitors can follow the existing YouTube, Facebook, and Instagram links.
 
-Existing image provenance is recorded in the inventory; reuse does not independently verify third-party image licensing. No new stock assets were introduced.
+Existing image provenance is recorded in the inventory; reuse does not independently verify third-party image licensing. The Quantum of the Seas photograph is licensed CC BY 2.0 and attributed on `photo-credits.html`; its source, author, license, and modifications are stored in `content.json`.
 
 ## Validation
 
