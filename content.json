@@ -212,9 +212,14 @@
       "name": "Nassau",
       "region": "BAHAMAS",
       "img": "trip-1.jpg",
-      "sub": "Beyond the port, a different side of the island.",
+      "sub": "Our Bahamas story, beyond the port.",
       "text": "On our first cruise, we headed beyond the port and markets to explore Nassau. One of our favorite sights was the Queen’s Staircase in the Fort Fincastle Historic Complex.",
-      "video": 2
+      "video": 2,
+      "group": "Caribbean & Central America",
+      "originalJournal": true,
+      "imageAlt": "Nassau from our original cruise journal",
+      "homeFeatured": true,
+      "photoCaption": "From our original first-cruise journal."
     },
     {
       "slug": "key-west",
@@ -223,7 +228,12 @@
       "img": "trip-2.jpg",
       "sub": "A little wandering. A lot to come back for.",
       "text": "We loved walking around Key West and seeing the sights. We stopped for lunch at Sloppy Joe’s Bar, and left wanting more time to explore. This is a place we would love to visit again.",
-      "video": 1
+      "video": 1,
+      "group": "Florida",
+      "originalJournal": true,
+      "imageAlt": "Key West from our original cruise journal",
+      "homeFeatured": true,
+      "photoCaption": "From our original first-cruise journal."
     },
     {
       "slug": "cococay",
@@ -231,7 +241,101 @@
       "region": "BAHAMAS",
       "img": "trip-3.jpg",
       "sub": "Clear water. Slow days. Nowhere else to be.",
-      "text": "Our favorite stop on the trip was Royal Caribbean’s private island, called Cocoa Cay in our original journal. We spent the day relaxing on a beach bed, snorkeling in clear water, and enjoying lunch delivered to our cabana bed."
+      "text": "Our favorite stop on the trip was Royal Caribbean’s private island, called Cocoa Cay in our original journal. We spent the day relaxing on a beach bed, snorkeling in clear water, and enjoying lunch delivered to our cabana bed.",
+      "group": "Caribbean & Central America",
+      "originalJournal": true,
+      "imageAlt": "CocoCay from our original cruise journal",
+      "homeFeatured": true,
+      "photoCaption": "From our original first-cruise journal."
+    },
+    {
+      "slug": "cancun",
+      "name": "Cancún",
+      "region": "MEXICO",
+      "group": "Mexico",
+      "sub": "Caribbean blue on Mexico’s coast.",
+      "text": "Cancún brings Mexico’s Caribbean coastline into our travel map, with bright blue water and white-sand shores.",
+      "imageAlt": "Representative photograph of Cancún beach and its turquoise water",
+      "photoCaption": "Representative view: the beach in Cancún, Mexico.",
+      "img": "cancun.jpg",
+      "representativePhoto": true
+    },
+    {
+      "slug": "cozumel",
+      "name": "Cozumel",
+      "region": "MEXICO",
+      "group": "Mexico",
+      "sub": "Island days and off-road adventures.",
+      "text": "Our Cozumel films capture an ATV adventure to Jade Caverns, an off-road buggy excursion, and a cooking-and-tasting experience. Explore those moments below.",
+      "imageAlt": "Representative photograph of Palancar Beach, Cozumel",
+      "photoCaption": "Representative view: Palancar Beach, Cozumel, Mexico.",
+      "videoIds": [
+        "TT__Wt8ytNQ",
+        "iO_JO6SfrgE",
+        "ViWdaWPwSDo"
+      ],
+      "img": "cozumel.jpg",
+      "representativePhoto": true
+    },
+    {
+      "slug": "jamaica",
+      "name": "Jamaica",
+      "region": "CARIBBEAN",
+      "group": "Caribbean & Central America",
+      "sub": "Another island on our travel map.",
+      "text": "Jamaica is part of our Caribbean travel story, alongside our stops in the Bahamas. An island chapter in a growing collection of places we’ve explored.",
+      "imageAlt": "Representative photograph of Doctor’s Cave Beach in Montego Bay, Jamaica",
+      "photoCaption": "Representative view: Doctor’s Cave Beach, Montego Bay, Jamaica.",
+      "img": "jamaica.jpg",
+      "representativePhoto": true
+    },
+    {
+      "slug": "belize",
+      "name": "Belize",
+      "region": "CENTRAL AMERICA",
+      "group": "Caribbean & Central America",
+      "sub": "A Caribbean coast chapter.",
+      "text": "Belize is one of the Central American destinations we’ve visited. It joins Honduras in the coastal side of our travel collection.",
+      "imageAlt": "Representative photograph of Silk Caye, Belize, with palms and clear water",
+      "photoCaption": "Representative view: Silk Caye, Belize.",
+      "img": "belize.jpg",
+      "representativePhoto": true
+    },
+    {
+      "slug": "honduras",
+      "name": "Honduras",
+      "region": "CENTRAL AMERICA",
+      "group": "Caribbean & Central America",
+      "sub": "More coastline. More horizons.",
+      "text": "Honduras is another place on our Central American travel map, alongside Belize. One more chapter in our collection of sea days and shore stories.",
+      "imageAlt": "Representative photograph of a beach on Roatán, Honduras",
+      "photoCaption": "Representative view: Roatán, Honduras.",
+      "img": "honduras.jpg",
+      "representativePhoto": true
+    },
+    {
+      "slug": "ensenada",
+      "name": "Ensenada",
+      "region": "BAJA CALIFORNIA · MEXICO",
+      "group": "Mexico",
+      "sub": "A different coast. A Pacific perspective.",
+      "text": "Ensenada is part of our Mexico travel collection. Here the setting shifts from Caribbean shores to Baja California’s Pacific waterfront.",
+      "imageAlt": "Representative photograph of Ensenada’s waterfront and city skyline",
+      "photoCaption": "Representative view: Ensenada waterfront, Baja California, Mexico.",
+      "img": "ensenada.jpg",
+      "representativePhoto": true
+    },
+    {
+      "slug": "cabo-san-lucas",
+      "name": "Cabo San Lucas",
+      "region": "BAJA CALIFORNIA SUR · MEXICO",
+      "group": "Mexico",
+      "sub": "Where the rocks meet the open sea.",
+      "text": "Cabo San Lucas adds another Baja California chapter to our travels. Its coastal rock formations and blue water give this destination a different look from our Caribbean stops.",
+      "imageAlt": "Representative photograph of the Arch at Cabo San Lucas",
+      "photoCaption": "Representative view: the Arch at Cabo San Lucas, Baja California Sur, Mexico.",
+      "img": "cabo-san-lucas.jpg",
+      "representativePhoto": true
     }
   ],
   "stories": [
@@ -286,6 +390,76 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
       "changes": "Resized for the web; displayed with responsive cropping and a blue overlay."
+    },
+    {
+      "image": "cancun.jpg",
+      "title": "Cancun Beach",
+      "creator": "Keith Pomakis",
+      "creatorUrl": "https://commons.wikimedia.org/wiki/User:Pomakis",
+      "source": "https://commons.wikimedia.org/wiki/File:Cancun_Beach.jpg",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "changes": "Web-size image displayed with responsive cropping. Representative destination photography; the image retains its original license."
+    },
+    {
+      "image": "cozumel.jpg",
+      "title": "Palancar Beach Cozumel Mexico",
+      "creator": "Dronepicr",
+      "creatorUrl": "https://500px.com/dronepicr",
+      "source": "https://commons.wikimedia.org/wiki/File:Palancar_Beach_Cozumel_Mexico_(125160707).jpeg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "changes": "Web-size image displayed with responsive cropping. Representative destination photography; the image retains its original license."
+    },
+    {
+      "image": "jamaica.jpg",
+      "title": "Doctors-Cave-Beach",
+      "creator": "en:User:Op. Deo",
+      "creatorUrl": "https://en.wikipedia.org/wiki/User:Op._Deo",
+      "source": "https://commons.wikimedia.org/wiki/File:Doctors-Cave-Beach.jpg",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain",
+      "changes": "Web-size image displayed with responsive cropping. Representative destination photography; the image retains its original license."
+    },
+    {
+      "image": "belize.jpg",
+      "title": "Silk Caye, Stann Creek, Belize 2",
+      "creator": "Walter Rodriguez from Helsinki, Finland",
+      "creatorUrl": "https://www.flickr.com/people/91571281@N00",
+      "source": "https://commons.wikimedia.org/wiki/File:Silk_Caye,_Stann_Creek,_Belize_2.jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "changes": "Web-size image displayed with responsive cropping. Representative destination photography; the image retains its original license."
+    },
+    {
+      "image": "honduras.jpg",
+      "title": "Roatan beach",
+      "creator": "Axepineda",
+      "creatorUrl": "https://commons.wikimedia.org/w/index.php?title=User:Axepineda&amp;action=edit&amp;redlink=1",
+      "source": "https://commons.wikimedia.org/wiki/File:Roatan_beach.JPG",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "changes": "Web-size image displayed with responsive cropping. Representative destination photography; the image retains its original license."
+    },
+    {
+      "image": "ensenada.jpg",
+      "title": "EnsenadaPanorama",
+      "creator": "matt.h.wade",
+      "creatorUrl": "https://commons.wikimedia.org/wiki/File:EnsenadaPanorama.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:EnsenadaPanorama.jpg",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "changes": "Web-size image displayed with responsive cropping. Representative destination photography; the image retains its original license."
+    },
+    {
+      "image": "cabo-san-lucas.jpg",
+      "title": "TheArchCaboSanLucas03",
+      "creator": "Thelmadatter",
+      "creatorUrl": "https://commons.wikimedia.org/wiki/User:Thelmadatter",
+      "source": "https://commons.wikimedia.org/wiki/File:TheArchCaboSanLucas03.JPG",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": "Web-size image displayed with responsive cropping. Representative destination photography; the image retains its original license."
     }
   ],
   "films": {

@@ -30,6 +30,19 @@ for (const v of data.videos) assert(fs.existsSync('assets/' + v.embedUrl.split('
 const home = fs.readFileSync('dist/index.html', 'utf8');
 assert.equal((home.match(/class="film" /g) || []).length, 3, 'Homepage keeps a curated three-film preview.');
 for (const id of ['-8CrYi-A8pg', 'Z00bvTX22YY', 'm69hzZpjbdo']) assert(filmPage.includes(id), 'Preserve original Wix videos.');
+const collection = fs.readFileSync('dist/destinations.html', 'utf8');
+assert.equal((collection.match(/class="destination" /g) || []).length, data.destinations.length);
+assert.equal((home.match(/class="destination" /g) || []).length, 3, 'Homepage remains a three-destination preview.');
+for (const destination of data.destinations) {
+  const detail = fs.readFileSync('dist/' + destination.slug + '.html', 'utf8');
+  assert(collection.includes(destination.slug + '.html'));
+  if (!destination.originalJournal) assert(!detail.includes('These memories come from our original February 2019'), 'New places must not inherit first-cruise context.');
+  if (destination.representativePhoto) {
+    assert(detail.includes('Representative view:'));
+    assert(data.credits.some(credit => credit.image === destination.img), 'Credit required for ' + destination.slug);
+  }
+}
+assert.equal((fs.readFileSync('dist/cozumel.html', 'utf8').match(/class="film" /g) || []).length, 3);
 // Verify the promised editing workflow: one new content entry generates a real linked page,
 // and a changed sailing date propagates to every relevant page without editing templates.
 const tempRoot = fs.mkdtempSync(path.join(os.tmpdir(), 'cruise-content-test-'));
@@ -37,11 +50,14 @@ try {
   for (const file of ['build.cjs', 'styles.css', 'app.js', 'assets', 'archive']) fs.cpSync(file, path.join(tempRoot, file), { recursive: true });
   const fixture = JSON.parse(JSON.stringify(data));
   fixture.upcoming.departure = '2028-06-15';
+  fixture.destinations.push({ slug: 'test-port', name: 'Test Port', region: 'MEXICO', group: 'Mexico', img: 'trip-0.jpg', sub: 'Test location', text: 'An owner-provided memory.' });
   fixture.stories.push({ slug: 'test-memory', title: 'A & B', status: 'Cruise memory', published: '2026-11-10', image: 'trip-0.jpg', summary: 'A remembered sea day.', paragraphs: ['Safe <text> & a real memory.'] });
   fs.writeFileSync(path.join(tempRoot, 'content.json'), JSON.stringify(fixture));
   execFileSync(process.execPath, ['build.cjs'], { cwd: tempRoot });
   assert(fs.readFileSync(path.join(tempRoot, 'dist/test-memory.html'), 'utf8').includes('Safe &lt;text> &amp; a real memory.'));
   assert(fs.readFileSync(path.join(tempRoot, 'dist/stories.html'), 'utf8').includes('test-memory.html'));
+  assert(fs.readFileSync(path.join(tempRoot, 'dist/destinations.html'), 'utf8').includes('test-port.html'));
+  assert(!fs.readFileSync(path.join(tempRoot, 'dist/test-port.html'), 'utf8').includes('These memories come from our original February 2019'));
   for (const file of ['index', 'about', 'our-first-cruise', fixture.upcoming.slug]) assert(fs.readFileSync(path.join(tempRoot, 'dist', file + '.html'), 'utf8').includes('June 15, 2028'));
   fixture.stories[1].slug = fixture.stories[0].slug;
   fs.writeFileSync(path.join(tempRoot, 'content.json'), JSON.stringify(fixture));
