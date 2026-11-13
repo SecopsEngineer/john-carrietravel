@@ -49,3 +49,7 @@ Existing image provenance is recorded in the inventory; reuse does not independe
 ## Films refresh
 
 The Films page contains 16 cruise-related channel videos, a most-watched feature, category filters, search, and sorting. View counts are approximate public labels reviewed November 10, 2026; see `archive/youtube-review.json` for the source and selection record. The homepage shows only three viewer favorites. Update metadata in `content.json` following `UPDATING.md`; no live API or credentials are required.
+
+## Expanded destinations
+
+The destination collection includes ten owner-confirmed places grouped by region, with seven new detail pages and representative, licensed photographs. Nassau and CocoCay retain their original journal images. Cozumel links to three existing excursion films. Image credits are visible on the site and full source/license metadata is archived. Adding further destinations is covered in `UPDATING.md`.

@@ -50,3 +50,11 @@ This is a simple content-file workflow, not a separate login or visual editing a
 ## Film categories and popularity
 
 The library is curated from the channel’s public Videos → Popular list. `films.reviewedOn` records the snapshot date; counts do not update automatically. Set `viewsApprox` to the rounded numeric estimate (for example 42000), `viewsLabel` to the public display label (for example "42K"), `category` to an existing category, and `popularOrder` to the tie-break order. Set `films.featuredVideoId` to an ID already in `videos`. The home preview shows the three highest-view films, while the Films page offers category filters, search, and most-watched/alphabetical sorting. Preserve original video records when updating counts. Titles and duration labels come from the public channel; labels such as "42 min" retain YouTube’s rounded duration where exact seconds were not shown.
+
+## Add a destination
+
+Add a record to `destinations` in `content.json`. Provide a unique `slug`, `name`, `region` (the small card label), `group` (exactly `Mexico`, `Caribbean & Central America`, or `Florida`), `img` (filename in `assets/`), `imageAlt`, `sub` (one short card sentence), and `text` (your destination introduction). A collection card and detail page are generated automatically. Existing country-level entries can stay broad until you confirm a port or town. Nassau represents the Bahamas; CocoCay remains a separate island stop.
+
+For stock images, set `representativePhoto` to `true`, add `photoCaption` beginning with `Representative view:` and naming the actual place pictured, and add the creator/source/license record to `credits`. A representative town or beach does not mean that was your port of call. Original photo-license records are retained in `archive/destination-photo-sources.json`. Use `originalJournal: true` only for places genuinely in the first-cruise article. `homeFeatured: true` selects up to three homepage cards; leave it off new entries to keep the home preview focused.
+
+Optional `videoIds` links matching videos already in the film library to the destination page—for example, the Cozumel page uses the ATV, buggy, and cooking-excursion video IDs.
